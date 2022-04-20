@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nik1m/Desktop/C/2/graphs/bipartite graph/main.c
+stdio.h
+-
+stdlib.h
+-
+../graph.h
+C:/Users/nik1m/Desktop/C/2/graphs/graph.h
+
+C:/Users/nik1m/Desktop/C/2/graphs/graph.h
+

@@ -1,0 +1,3 @@
+C:/Users/nik1m/Desktop/C/2/graphs/graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir
+C:/Users/nik1m/Desktop/C/2/graphs/graphs and files/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nik1m/Desktop/C/2/graphs/graphs and files/cmake-build-debug/CMakeFiles/rebuild_cache.dir

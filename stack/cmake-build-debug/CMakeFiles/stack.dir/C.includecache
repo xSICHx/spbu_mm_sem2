@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/nik1m/Desktop/C/2/stack/euclid.h
+
+C:/Users/nik1m/Desktop/C/2/stack/main.c
+stdio.h
+-
+stdlib.h
+-
+solve_rpn.h
+C:/Users/nik1m/Desktop/C/2/stack/solve_rpn.h
+
+C:/Users/nik1m/Desktop/C/2/stack/solve_rpn.h
+
+C:/Users/nik1m/Desktop/C/2/stack/src/solve_rpn.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+../solve_rpn.h
+C:/Users/nik1m/Desktop/C/2/stack/solve_rpn.h
+../euclid.h
+C:/Users/nik1m/Desktop/C/2/stack/euclid.h
+
