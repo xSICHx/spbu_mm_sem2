@@ -278,40 +278,50 @@ graph* graph_read(char* filename){
 
 graph* topology_sort(graph* g, int vert){
     int color[g->count], sorted_vertexes[g->count], j = g->count-1; node* temp;
-    int flag_if_all_black = 1;
-    array_fill(color, sizeof(color)/sizeof(int), 0);
+    int flag_if_all_black = 1, flag = 1;
+    array_fill(color, g->count, 0);
     graph* result = graph_init(g->count);
     stack* s = stack_init();
     stack_push(s, vert);
-    while (s->head){
-        if (g->adj_list[s->head->val]){
-            //if (color[s->head->val] == 2) stack_pop(s);
-            if (color[s->head->val] == 0) color[s->head->val] = 1;
-            else{
-                temp = g->adj_list[s->head->val];
-                while (temp){
-                    if (color[temp->val] == 1) return NULL;
-                    if (color[temp->val] == 0){
-                        stack_push(s, temp->val);
-                        flag_if_all_black = 0;
+    while (flag) {
+        while (s->head) {
+            if (g->adj_list[s->head->val]) {
+                //if (color[s->head->val] == 2) stack_pop(s);
+                if (color[s->head->val] == 0) color[s->head->val] = 1;
+                else {
+                    temp = g->adj_list[s->head->val];
+                    while (temp) {
+                        if (color[temp->val] == 1) return NULL;
+                        if (color[temp->val] == 0) {
+                            stack_push(s, temp->val);
+                            flag_if_all_black = 0;
+                        }
+                        temp = temp->next;
                     }
-                    temp = temp->next;
+                    if (flag_if_all_black == 1) {
+                        color[s->head->val] = 2;
+                        sorted_vertexes[j] = s->head->val;
+                        j--;
+                        stack_pop(s);
+                    }
+                    flag_if_all_black = 1;
                 }
-                if (flag_if_all_black == 1){
-                    color[s->head->val] = 2;
-                    sorted_vertexes[j] = s->head->val;
-                    j--;
-                    stack_pop(s);
-                }
-                flag_if_all_black = 1;
+            }
+            else {
+                color[s->head->val] = 2;
+                //printf("%d\n", s->head->val);
+                sorted_vertexes[j] = s->head->val;
+                j--;
+                stack_pop(s);
             }
         }
-        else{
-            color[s->head->val] = 2;
-            //printf("%d\n", s->head->val);
-            sorted_vertexes[j] = s->head->val;
-            j--;
-            stack_pop(s);
+        flag = 0;
+        for (int i = 0; i < g->count; i++){
+            if (color[i] == 0){
+                stack_push(s, i);
+                flag = 1;
+                break;
+            }
         }
     }
     for (int i = 0; i < g->count; i++){

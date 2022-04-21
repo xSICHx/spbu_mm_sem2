@@ -9,7 +9,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16024a88-8b77-46b4-854f-9cb1975d4b49" name="Changes" comment="" />
+    <list default="true" id="16024a88-8b77-46b4-854f-9cb1975d4b49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../graphs and files/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/top sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bipartite graph/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../bipartite graph/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir/C_/Users/nik1m/Desktop/C/2/graphs/graph.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir/C_/Users/nik1m/Desktop/C/2/graphs/graph.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/CMakeFiles/graphs_and_files.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/graphs_and_files.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs and files/cmake-build-debug/graphs_and_files.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphs and files/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../graphs and files/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +29,9 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -27,6 +42,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="27OML6cukcEwYr0J2rYyyARoGRe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,15 +55,10 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -64,6 +75,7 @@
       <updated>1649186620249</updated>
       <workItem from="1649186622092" duration="6211000" />
       <workItem from="1649319413109" duration="3847000" />
+      <workItem from="1650528661789" duration="60000" />
     </task>
     <servers />
   </component>

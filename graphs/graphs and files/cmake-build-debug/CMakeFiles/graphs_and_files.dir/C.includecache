@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/nik1m/Desktop/C/2/graphs/graph.c
-stdio.h
--
-stdlib.h
--
-string.h
--
-graph.h
 C:/Users/nik1m/Desktop/C/2/graphs/graph.h
 
+C:/Users/nik1m/Desktop/C/2/graphs/graphs and files/main.c
+stdio.h
+-
+../graph.h
 C:/Users/nik1m/Desktop/C/2/graphs/graph.h
 

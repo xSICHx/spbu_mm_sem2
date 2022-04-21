@@ -16,7 +16,7 @@ int main() {
     add_edge(g, 4, 9);
     add_edge(g, 6, 7);
     add_edge(g, 7, 8);
-    //graph_print(g);
+    graph_print(g);
     graph_write(g, "../graph.txt");
     graph* g1 = graph_read("../graph.txt");
     graph_print(g1);
